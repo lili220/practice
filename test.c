@@ -11,6 +11,8 @@ void move(int n, char x, char y, char z)
 		printf ("%c->%c\n", x, z);
 		move(n-1, y, x, z);
 	}
+
+	return;
 }
 
 int main(void)
