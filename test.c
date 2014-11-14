@@ -1,6 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+/**
+ * @brief 
+ *
+ * @param n
+ * @param x
+ * @param y
+ * @param z
+ */
 void move(int n, char x, char y, char z)
 {
 	if(n == 1)
